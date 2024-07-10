@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 69px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#links {
+    display: flex;
+    margin-right: 10px;
+    justify-content: end;
+}
+
+#links a {
+    margin-left: 20px;
+    color: seashell;
+    text-wrap: nowrap;
+}
+
+/* Mission */ 
+
+.mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url(images/img-mission-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+/* Examples of tea */
+
+.teaMonth {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.headofimg {
+    text-align: center;
+}
+.headofimg h2 {
+    margin-bottom: 20px;
+}
+
+.allimg {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.allimg img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/* Locations */
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-image: url(images/img-locations-background.jpg);
+    width: 1200px;
+    height: 570px; /* in specificare e 500px, in imagine pare sa fie mai mult*/
+}
+
+#block {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.loc {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    justify-content: space-around;
+}
+
+/* footer*/
+
+footer div {
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;align-items: center;
+    gap: 30px;
+}
+
+footer div h2 {
+    margin-bottom: 10px;
+}
+
+#copyright {
+    margin: 20px;
+}
